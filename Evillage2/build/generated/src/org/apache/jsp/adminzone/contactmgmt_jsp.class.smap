@@ -1,0 +1,18 @@
+SMAP
+contactmgmt_jsp.java
+JSP
+*S JSP
+*F
++ 0 contactmgmt.jsp
+adminzone/contactmgmt.jsp
+*L
+1,32:46
+33,16:79
+48,132:95
+180,6:228
+185,2:234
+187,5:236,3
+192,3:251
+195:254,3
+196,45:257
+*E

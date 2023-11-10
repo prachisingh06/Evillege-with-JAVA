@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+
+        <link href="style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/hover-min.css" rel="stylesheet">
+
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/aos.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="Bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="Bootstrap3/js/jquery.js"></script>
+        <script src="Bootstrap3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.con/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">  
+
+        <style>
+            ul li
+{
+display:inline;
+}
+ li a
+{
+text-decoration:none;
+font-size:15px;
+padding-left:10px;
+MIN-HEIGHT:30PX;
+color:white;
+
+}
+UL LI A:HOVER
+{
+color:black;
+FONT-SIZE:18PX;
+}
+.inner{
+  transform-origin:50% 50%;
+  transform-box: fill-box;
+  animation: rotateBox 3s linear infinite;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: rotate(360deg); 
+  }
+
+            
+
+
+        </style>
+
+</head>
+<body>
+    <!--menu-->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex" STYLE="BORDER:3PX SOLID TEAL;">
+            <nav class="nav-menu d-none d-lg-block">
+                <ul><li>
+                     <a href="index.html"><b>HOME</b></a>
+                    </li>
+                    <li> <a href="about.html"><b>ABOUT VILLAGE</b></a>
+                    </li>
+                    <li> <a href="photo.html"><b>PHOTO GALLERY</b></a>
+                    </li>
+
+                    <li> <a href="registration.html"><b>REGISTRATION</b></a></li>
+                    <li> <a href="schemes.html"><b>SCHEMES</b></a></li>
+                    <li> <a href="review.html"><b>REVIEW</b></a></li>
+
+                    
+                    <li class="drop-down"> <a href="#"><b>LINKS</b></a>
+                        <ul>
+                            <li id="color">
+                                <a href="manrega.html"><b>MANREGA</b></a>
+                            </li>
+                            <li id="color">
+                                <a href="scholarship.html"><b>SCHOLARSHIP</b></a>
+                            </li>
+                            <li><a href="bhulekh.html"><b>BHULEKH</b></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html"><b>LOGIN</b></a>
+
+
+                    </li>
+                    <li claass="active"><a href="contact.html"><b>CONTACT US</b></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="container-fluid" style="background:teal;">
+        <div class="row" style="min-height:200px;"></div>
+        <div class="row">
+            <div class="col-md-4"></div>
+       <div class="col-md-4">
+           <fieldset style="box-shadow: 3px 3px 4px 4px black; border:6px solid white; background:linear-gradient(orange,azure,white,white,azure,white,teal)"><br>
+                   <img class="inner" src="image/y11.jpg" style="margin-left:180px; min-height: 100px ;width:100px; border-radius:50%;"/>
+                   <p style="color:white;text-shadow: 2px 3px 6px black; font-size:33px;margin-left:180px;">Login</p>
+<form action="code/Loginpagecode.jsp" method="post">
+           
+
+    <br>
+    <b>UserId</b> :
+            <div class="input-group">
+                <input type="text" name="email" placeholder="Enter UserId" class="form-control" required="required"/>
+                <span class="input-group-addon glyphicon-user"></span>
+            </div>
+    <b> Password :</b>
+            <div class="input-group">
+                <input type="password" name="pass" placeholder="Enter Password" class="form-control" maxlength="12"
+                       required="required"/>
+                <span class="fa-fa-password"></span>
+            </div><br>
+            
+
+            <input type="submit" value="login" class="btn btn-info" style="background:#2e3f61;color:#alalal;
+                   text-align:center;font-weight:bold;width:100%"/>
+            
+            <span class="input-group"></span>
+     
+          
+</form>
+</fieldset> 
+    </div>
+            <div class="col-md-4"></div>
+    </div>
+        <div class="row" style="min-height: 200px;"></div>
+    </div>

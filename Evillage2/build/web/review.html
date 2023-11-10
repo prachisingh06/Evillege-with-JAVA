@@ -1,0 +1,357 @@
+<html>
+    <head>
+        <title>REVIEW</title>
+
+        <link href="style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/hover-min.css" rel="stylesheet">
+
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/aos.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="Bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="Bootstrap3/js/jquery.js"></script>
+        <script src="Bootstrap3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.con/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">  
+
+        <style>
+            ul li
+{
+display:inline;
+}
+ li a
+{
+text-decoration:none;
+font-size:15px;
+padding-left:10px;
+MIN-HEIGHT:30PX;
+color:white;
+
+}
+UL LI A:HOVER
+{
+color:black;
+FONT-SIZE:18PX;
+}
+            #1{
+                min-height:30px;
+                width:80px;
+                border:3px solid teal;
+
+            }
+            #2{
+                min-height:20px;
+                width:80px;
+                border:3px solid teal;
+
+            }
+         
+            
+            .animatedBox1 {
+
+
+
+                border-dased: 6px solid teal;
+                text-align: center;
+                font: 24px sans-serif;
+                animation: myAnimation 2s ease 1s 67 alternate forwards;
+            }
+
+            @keyframes myAnimation {
+                50% {
+                    box-shadow: 17px 20px 25px black;
+                }	
+            }
+            .s {
+                color: black;
+                animation-name: springy-text;
+                animation-duration: 2s;
+                animation-timing-function: ease;
+                animation-delay: 1s;
+                animation-iteration-count: 100;
+                animation-direction: normal;
+                animation-fill-mode: forwards;
+            }
+            @keyframes springy-text {
+                0%   {
+                    letter-spacing: .2em;
+                    color: teal;
+                }
+                100%   {
+                    letter-spacing: 0em;
+                    color: black;
+                }
+            }
+
+            #a {
+                width: 50%;
+                height: 350px;
+                text-align: center;
+                font: 24px/40px sans-serif;
+                color: white;
+                background: skyblue url(image/m6.jpg) no-repeat bottom center / 80%;
+                animation: myAnimation 3s ease 1s 60 alternate forwards;
+            }
+
+            @keyframes myAnimation {
+                100% {
+                    width: 100%;
+                }
+            }
+
+.inner{
+  transform-origin:50% 50%;
+  transform-box: fill-box;
+  animation: rotateBox 3s linear infinite;
+}
+
+@keyframes rotateBox {
+  to {
+    transform: rotate(360deg); 
+  }
+
+        </style>
+        <script>
+       
+        $(document).ready(function()
+        {
+         $(".im").click(function()
+         {
+          var d=$(this).attr("data");
+          $("#hdn1").val(d);
+          for(var i=1;i<=5;i++)
+          {
+              if(i<=d)
+              {
+                  $("#img"+i).attr("src","image/star4.jpg");
+              }
+              else
+              {
+                   $("#img"+i).attr("src","image/star1.jpg");
+              }
+          }
+         });   
+        });
+       
+        </script>
+</head>
+<body>
+    <!--menu-->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex" STYLE="BORDER:3PX SOLID TEAL;">
+            <nav class="nav-menu d-none d-lg-block">
+                <ul><li>
+                     <a href="index.html"><b>HOME</b></a>
+                    </li>
+                    <li> <a href="about.html"><b>ABOUT VILLAGE</b></a>
+                    </li>
+                    <li> <a href="photo.html"><b>PHOTO GALLERY</b></a>
+                    </li>
+
+                    <li> <a href="registration.html"><b>REGISTRATION</b></a></li>
+                    <li> <a href="schemes.html"><b>SCHEMES</b></a></li>
+                    <li class="active"> <a href="review.html"><b>REVIEW</b></a></li>
+
+
+
+
+
+                    <li class="drop-down"> <a href="#"><b>LINKS</b></a>
+                        <ul>
+                            <li id="color">
+                                <a href="manrega.html"><b>MANREGA</b></a>
+                            </li>
+                            <li id="color">
+                                <a href="scholarship.html"><b>SCHOLARSHIP</b></a>
+                            </li>
+                            <li><a href="bhulekh.html"><b>BHULEKH</b></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login.html"><b>LOGIN</b></a>
+
+
+                    </li>
+                    <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!--header-->
+    <div class="container-fluid">
+        <div class="row" style="min-height: 100px"></div>
+        <div class="row" style="min-height: 240px">
+            <div class="col-md-2" style="min-height: 200px;background: url(image/zz.jpg);background-size:cover;background-repeat: no-repeat">
+
+
+            </div>
+            <div class="col-md-10">
+                <div class="row" style="min-height:200px">
+                    <div class="col-md-2">
+                        <img class="inner" src="image/y11.jpg" height="110px" width="110"style="border-radius: 50%;">
+                        <p class="s" style="font-size:25px; color:black; text-shadow:3px 3px 5px green;">&nbsp;&nbsp;Evi
+                            <b  style=" font-size:25px; box-shadow:1px 1px 1px 5px teal;">ll</b>age</P>
+
+                    </div>
+                    <div class="col-md-5">
+                        <p STYLE="FONT-SIZE:38px;"><b>MINISTRY OF RURAL DEVELOPMENT </b></P>
+                        <P style="font-size:20px">GOVERNMENT OF INDIA</P>
+
+                        
+                    </div>
+                    <div class="col-md-4 animatedBox1"  style="min-height: 190px; box-shadow: 2px 2px 4px 4px black;
+                         background:url(image/x29.jpg);background-size: cover;background-repeat: no-repeat"></div>
+                    <div class="col-md-1" style="background:"></div></div>
+                <div class="row" style="background:teal; min-height:30px">
+                    <div class="col-md-2" style="background:teal; min-height:30px">
+                        <P STYLE="COLOR:WHITE; FONT-SIZE:20PX;"><B>LETEST FEED</B></P>
+
+                    </div>
+                    <div class="col-md-10" style="background:white; min-height:30px; border:6px solid teal;">
+                        <marquee scrollamount="15" onmouseout="start()" onmouseover="stop()" style="font-size:15px;"><b>
+                                किसान सम्मान निधि योजना ||प्रधानमंत्री उज्ज्वला योजना||मुफ्त सिलाई मशीन योजना 2022 ||प्रधानमंत्री सहज बिजली हर घर योजना (सौभाग्य)||
+                                किसान सम्मान निधि योजना ||प्रधानमंत्री उज्ज्वला योजना||मुफ्त सिलाई मशीन योजना 2022 ||प्रधानमंत्री सहज बिजली हर घर योजना (सौभाग्य)||
+                            </b></marquee>
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+
+
+        <!--start reviwe page-->
+        <div class="container-fluid" style="background:linear-gradient(teal,azure,azure,azure,teal);">
+            <div class="row"style="min-height:100px;"></div>
+            <div class="row"style="min-height:490px;">
+
+                <div class="col-md-6" >
+                    <div class="row" style="min-height:350px;" >
+                        <div class="col-md-1" ></div>
+                        <div class="col-md-10" style="background: rgba(1.5,5.0,5.0,0.34);border:2px solid black;" >
+                            
+                            <form action="code/reviewcode.jsp" method="post" stye="min-height:300px;">
+                                <i class="fa fa-user">&nbsp;</i><b>Enter Your Name :</b> 
+
+                                <input type="text" name="name" placeholder="enter name" class="form-control"><br>
+                                
+                                <i class="fa fa-phone-squae">&nbsp;</i><b>Enter Your Mobile :</b> 
+
+                                <input type="number" name="mob" placeholder="enter mobile" class="form-control"><br><br>
+                                <img id="img1" src="image/star1.jpg" class="im" data="1" style="height:80px; width:80px;">
+                                <img id="img2" src="image/star1.jpg" class="im" data="2" style="height:80px; width:80px;">
+                                <img id="img3" src="image/star1.jpg" class="im" data="3" style="height:80px; width:80px;">
+                                <img id="img4" src="image/star1.jpg" class="im" data="4" style="height:80px; width:80px;">
+                                <img id="img5" src="image/star1.jpg" class="im" data="5" style="height:80px; width:80px;"><br><br>
+                                
+                                
+                                <input type ="hidden" id="hdn1" name="hdn1">
+                                <input type="submit" value="send review" class="btn btn-success" style="min-height: 20px;color:white
+                                       ; border:2px solid black;">
+                            </form>
+                       
+                            
+                        </div>   
+                        <div class="col-md-1" ></div>
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-6"  >
+                    <img src="image/z15.jpg" width="600px" height="350px"
+                         style="box-shadow:3px 2px 3px 4px black;" />
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+ <div class="container-fluid">
+                        <div class="row" style="min-height:15px; background:teal;"></div>
+                    <div class="row" style="min-height:80px; background:teal;">
+                        <div class="col-md-5" style="min-height:40px; background:teal;"></div>
+                        <div class="col-md-4" style="min-height:40px; background:teal;">
+                            <p class="s" style="font-size:35px; color:black; text-shadow:3px 3px 5px green;">&nbsp;&nbsp;Evi
+                                <b style=" font-size:35px; box-shadow:1px 1px 1px 5px white;">ll</b>age</P>
+
+                        </div>
+
+                    </div>
+                    <div class="row" style="min-height:100px; background:teal;">
+
+                        <div class="col-md-3" style=""></div> 
+                        <div class="col-md-1">
+                            <img src='image/f1.jpg' height="70px" width="80%"
+                                 style="border:2px solid black;background:teal;background-repeat: no-repeat;background-size: cover; background-radius:50%;">
+                            <p style="font-size:20px; color:white;">&nbsp;&nbsp;&nbsp;बजट </p>
+                        </div> 
+                        <div class="col-md-1" style="">
+
+                        </div> 
+                        <div class="col-md-1" style="">
+                            <img src='image/f2.jpg' height="70px" width="80%"
+                                 style="border:2px solid black;background:teal;background-repeat: no-repeat;background-size: cover; background-radius:50%;">
+                            <p style="font-size:20px; color:white;">&nbsp;नागरिक</p>
+                        </div> 
+                        <div class="col-md-1" style=""></div> 
+                        <div class="col-md-1" style="">
+                            <img src='image/f3.jpg' height="70px" width="80%"
+                                 style="border:2px solid black;background:teal;background-repeat: no-repeat;background-size: cover; background-radius:50%;">
+                            <p style="font-size:20px; color:white;">&nbsp;&nbsp;किताब</p></div> 
+                        <div class="col-md-1" style=""></div> 
+                        <div class="col-md-1" style="">
+                            <img src='image/Z21.JPG' height="70px" width="80%"
+                                 style="border:2px solid black;background:teal;background-repeat: no-repeat;background-size: cover; background-radius:50%;">
+                            <p style="font-size:20px; color:white;">&nbsp;&nbsp;&nbsp;&nbsp;खेत </p> </div>
+                    </div>
+                    <div class="row" style="background:teal; min-height:150px;">
+                        <div class="col-md-12" style="background:teal; min-height:100px;">
+                            <center>
+                                <p style="font-size:20px;"><u><b>2023 Sarkari Yojna in village</u></b></p>
+                                <p>
+                                    इस वेबसाइट का किसी सरकारी विभाग/मंत्रालय से कुछ लेना देना नहीं है, और न ही यह कोई सरकारी वेबसाइट है, इस ब्लॉग का<br>
+                                    मकसद आप लोगों तक सभी सरकारी योजनाओं की विस्तृत जानकारी पहुँचाना है। इस ब्लॉग में दी गई सभी योजनाएं, सरकारी पोर्टल, <br>
+                                    न्यूज़ साइट्स या अख़बारों पर दी गई ख़बरों पर आधारित हैं। अगर आपको किसी योजना या किसी अन्य आर्टिकल से सम्बंधित कोई समस्या<br>
+                                    है तो कृपया हमसे संपर्क करें।</p></center></div></div>
+                    <div class="row" style="background:black; min-height: 60px;">
+                        <p style="font-size:20px;color:teal;">disgin by PRACHI</p><hr>
+
+
+                        <span class="fa fa-phone" style="color:green; font-size:25px;">9569165413</span>
+                        <p style="font-size:18px;color:teal;">prachi09042006@gmail.com</p>
+                    </div>
+                </div>
+
+        
+                <script src="js/jquery.min.js"></script>
+                <script src="js/jquery.waypoints.min.js"></script>
+                <script src="js/counterup.min.js"></script>
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/aos.js"></script>
+                <script src="js/main.js"></script> 
+
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+
+                
+        </body>
+    </html>
+
+
